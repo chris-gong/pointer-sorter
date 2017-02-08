@@ -1,0 +1,147 @@
+
+TEST CASES:
+
+
+1.
+In: ./pointersorter "aand Aand AAnd aAnd"
+
+Out:
+AAnd
+Aand
+aAnd
+aand
+
+2.
+In: ./pointersorter "this is is a test"
+
+Out:
+a
+is
+is
+test
+this
+
+3.
+In: ./pointersorter ""This is a test test of someThing really Long With duplicatees testing testing17365this is787a[,test"
+
+Out:
+Long
+This
+With
+a
+a
+duplicatees
+is
+is
+of
+really
+someThing
+test
+test
+test
+testing
+testing
+this
+
+4.
+In: ./pointersorter "fish fishy fisher FisH fiShy fiSHEr fIsh fIshy fIsher fisherr fisheRr fisHer fiSher fishEr cow"
+
+Out:
+FisH
+cow
+fIsh
+fIsher
+fIshy
+fiSHEr
+fiSher
+fiShy
+fisHer
+fish
+fishEr
+fisheRr
+fisher
+fisherr
+fishy
+
+5.
+In: ./pointersorter "gfdsjhretwlkhdgfsoi34jhkdf9763~596dfghiu4357896fdgs768gfd7698fgds7698gfs68drdtf"
+
+Out:
+dfghiu
+drdtf
+fdgs
+fgds
+gfd
+gfdsjhretwlkhdgfsoi
+gfs
+jhkdf
+
+
+6.
+In: ./pointersorter "Tooth tOoth Toor TOOtH ToOth TOotH TOoth tOoth ToOtH ToOTh ToOthe tour tooth toOth toOTH tOoTH toOtH tuscaloosa ambulance aMbulance Ambluance"
+
+Out:
+Ambluance
+TOOtH
+TOotH
+TOoth
+ToOTh
+ToOtH
+ToOth
+ToOthe
+Toor
+Tooth
+aMbulance
+ambulance
+tOoTH
+tOoth
+tOoth
+toOTH
+toOtH
+toOth
+tooth
+tour
+tuscaloosa
+
+
+7.
+In: ./pointersorter "^hello@#i%..,am^()me:::[e]?*ab*c=t\$www^qwe-123gv_ABC;23yAB"
+
+Out:
+ABC
+ab
+am
+c
+e
+gv
+hello
+i
+me
+qwe
+t
+www
+yAB
+
+8.
+In: ./pointersorter ""
+
+Out:
+
+9.
+In: ./pointersorter "12345"
+
+Out:
+
+10.
+In: ./pointersorter
+
+Out:
+Incorrect number of arguments!
+Usage: ./pointersorter "[STRING]"
+
+11.
+In: ./pointersorter "abc" "def"
+
+Out:
+Incorrect number of arguments!
+Usage: ./pointersorter "[STRING]"
